@@ -25,8 +25,8 @@ class Counter extends React.Component {
     render() {
         return (
             <div>
-                <label>{this.state.votes}</label>
                 <button onClick={this.handleCounter}>+</button>
+                <label>{this.state.votes}</label>
                 <button onClick={this.handleCounterMinus}>-</button>
             </div>
         )
